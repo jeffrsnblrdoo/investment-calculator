@@ -2,4 +2,9 @@
 
 <main>
   <app-user-input />
+  @if (calculated) {
+  <app-investment-results />
+  } @else {
+  <p class="center">Please enter some values and press "Calculate".</p>
+  }
 </main>
